@@ -1,6 +1,6 @@
 # Rezept-Verwaltung
 
-📖 **Navigation**: [🏠 Hauptseite](../../README.md) | [⚙️ Installation](docs/installation.md) | [📝 Journal](../journal-verwaltung/README.md) | [🍷 Wein](../wein-verwaltung/README.md)
+📖 **Navigation**: [🏠 Hauptseite](../../README.md) | [⚙️ Installation](docs/installation.md) | [📝 Journal](journal-verwaltung/README.md) | [🍷 Wein](wein-verwaltung/README.md)
 
 ---
 
