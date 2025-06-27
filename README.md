@@ -108,3 +108,6 @@ Verbesserungsvorschläge und Pull Requests sind willkommen!
 ## 📄 Lizenz
 
 MIT License - siehe [LICENSE](LICENSE) für Details.
+
+## Dokumentation
+Die Dokumentation wurde von Claude geschrieben 😉
