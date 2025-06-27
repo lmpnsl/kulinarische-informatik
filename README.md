@@ -2,7 +2,9 @@
 
 *Ein persönliches System für Hobbyköche zur kulinarischen Dokumentation*
 
-Eine Sammlung von Drafts Actions, die ich für meine eigene Küchenpraxis und den Austausch mit Freunden entwickelt habe...
+Eine Sammlung von Drafts Actions, die ich für meine eigene Küchenpraxis und den Austausch mit Freunden entwickelt habe. 
+
+Das System ist **organisch aus meiner eigenen Küchenpraxis** entstanden und über Jahre gewachsen. Entsprechend uneinheitlich ist der Code teilweise.
 
 ## 🍳 Überblick
 
