@@ -128,18 +128,3 @@ Action: "Neue Woche ins Journal"
 2. Oder: Action "Quick VKN" für schnelle Notiz
 → Verkostungsnotiz wird erstellt und verlinkt
 ```
-
-## 📖 Nächste Schritte
-
-Nach erfolgreicher Installation:
-
-1. **[📝 Journal einrichten](../kategorien/journal-verwaltung/README.md#erste-schritte-nach-installation)** - Erste Woche erstellen
-2. **[🍳 Erstes Rezept](../kategorien/rezept-verwaltung/README.md#typische-workflows)** - Rezept erfassen und bewerten  
-3. **[🍷 Weinverkostung](../kategorien/wein-verwaltung/README.md#typische-workflows)** - Falls Sie Wein trinken
-
-## 📖 Siehe auch
-
-- **[🏠 Hauptseite](../README.md)** - Zurück zur Übersicht
-- **[📝 Journal-Verwaltung](../kategorien/journal-verwaltung/README.md)** - Detaillierte Journal-Anleitung
-- **[🍳 Rezept-Verwaltung](../kategorien/rezept-verwaltung/README.md)** - Rezepte organisieren
-- **[🍷 Wein-Verwaltung](../kategorien/wein-verwaltung/README.md)** - Weinverkostung (für Fortgeschrittene)
