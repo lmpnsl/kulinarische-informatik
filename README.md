@@ -1,6 +1,6 @@
 # Kulinarische Informatik
 
-*Ein persönliches System für Hobbyköche zur kulinarischen Dokumentation*
+*Ein persönliches System für Hobbyköch:innen zur kulinarischen Dokumentation*
 
 Eine Sammlung von Actions für die App [Drafts](https://getdrafts.com), die ich für meine eigene Küchenpraxis und den Austausch mit Freunden entwickelt habe. 
 
