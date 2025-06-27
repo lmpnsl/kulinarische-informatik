@@ -103,11 +103,7 @@ Planung → Kochen → Dokumentation:
 
 ## 🤝 Beitragen
 
-Verbesserungsvorschläge und Pull Requests sind willkommen! Bitte:
-1. Fork des Repositories erstellen
-2. Feature-Branch erstellen
-3. Änderungen commiten
-4. Pull Request öffnen
+Verbesserungsvorschläge und Pull Requests sind willkommen!
 
 ## 📄 Lizenz
 
