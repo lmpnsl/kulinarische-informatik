@@ -6,6 +6,8 @@
 
 Die Rezept-Verwaltung ermöglicht es, Rezepte strukturiert zu erfassen, zu bewerten und zu organisieren. Rezepte können per Volltextsuche, per Titelsuche oder per Tags gefunden werden.
 
+Alle Daten werden in einfachen Markdown-Dateien mit Tags organisiert.
+
 ## 📋 Überblick
 
 Das System verwaltet Rezepte in drei Lebensphasen:
