@@ -73,11 +73,12 @@ Das System arbeitet mit folgenden Draft-Typen:
 - **VKN-Drafts**: Verkostungsnotizen mit Tag "vkn"
 - **Gäste-Drafts**: Mit Tag "besuch"
 
-## 🔧 Benötigte Workspaces
+## Benötigte Workspaces
 
 - **Rezepte**: Für die Rezeptverwaltung
 - **Menüplanung**: Für Menüplanungen
 - **Verkostungsnotizen**: Für Weinnotizen
+- - **Besuchsbuchführung**: Alphabetische Liste aller Gäste
 
 **Empfohlen:**
 - **kochen!**: Geflaggte Rezepte für die Küchenpraxis

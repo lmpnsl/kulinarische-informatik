@@ -88,6 +88,10 @@ Inhalt: Leer lassen (wird automatisch befüllt)
 - Name: `Verkostungsnotizen` (exakt so!)
 - Filter: Tag enthält "vkn"
 
+4. **Besuch** ⭐ WICHTIG (für Gästeverwaltung)
+   - Für Gästedokumentation
+   - Filter: Tag enthält "besuch"
+
 ## 🏷️ Tag-System verstehen
 
 Das System arbeitet mit einem strukturierten Tag-System:
