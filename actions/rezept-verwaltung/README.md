@@ -4,7 +4,7 @@
 
 ---
 
-Die Rezept-Verwaltung ist das Herzstück des kulinarischen Systems. Sie ermöglicht es, Rezepte strukturiert zu erfassen, zu bewerten und zu organisieren.
+Die Rezept-Verwaltung ermöglicht es, Rezepte strukturiert zu erfassen, zu bewerten und zu organisieren. Rezepte können per Volltextsuche, per Titelsuche oder per Tags gefunden werden.
 
 ## 📋 Überblick
 
