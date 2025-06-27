@@ -1,58 +1,6 @@
-# Kulinarische Drafts Actions - Repository Struktur
+# Kulinarische Informatik
 
-```
-kulinarische-drafts-actions/
-├── README.md
-├── LICENSE
-├── docs/
-│   ├── installation.md
-│   ├── setup-anleitung.md
-│   └── screenshots/
-├── actions/
-│   ├── journal-verwaltung/
-│   │   ├── NeueWocheInsJournal.js
-│   │   ├── kulinarischerTagebucheintrag.js
-│   │   └── README.md
-│   ├── gaeste-verwaltung/
-│   │   ├── BesuchWarDa.js
-│   │   └── README.md
-│   ├── menue-planung/
-│   │   ├── zurMenueplanungHinzufuegen.js
-│   │   └── README.md
-│   ├── rezept-verwaltung/
-│   │   ├── neuesRezeptEinspeisen.js
-│   │   ├── dasKocheNieWieder.js
-│   │   ├── hatGutGeschmeckt.js
-│   │   ├── tagsZuweisen.js
-│   │   └── README.md
-│   ├── koch-planung/
-│   │   ├── aufDenKochplanSetzen.js
-│   │   ├── KochplanAufraeumen.js
-│   │   ├── kochplanZeigen.js
-│   │   └── README.md
-│   ├── wein-verwaltung/
-│   │   ├── WeinflascheEntkorkt.js
-│   │   ├── QuickVKN.js
-│   │   └── README.md
-│   └── app-modi/
-│       ├── kochmodus.js
-│       └── README.md
-├── vorlagen/
-│   ├── journal-vorlage.md
-│   ├── rezept-vorlage.md
-│   └── wein-verkostung-vorlage.md
-└── beispiele/
-    ├── beispiel-journal.md
-    ├── beispiel-rezept.md
-    └── beispiel-weinnotiz.md
-```
-
-## Haupt-README.md Struktur
-
-```markdown
-# Kulinarische Drafts Actions
-
-Eine umfassende Sammlung von Drafts Actions für die digitale Verwaltung kulinarischer Aktivitäten.
+Eine Sammlung von Drafts Actions für die digitale Verwaltung kulinarischer Aktivitäten.
 
 ## 🍳 Überblick
 
