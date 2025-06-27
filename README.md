@@ -1,6 +1,8 @@
 # Kulinarische Informatik
 
-Eine Sammlung von Drafts Actions für die digitale Verwaltung kulinarischer Aktivitäten.
+*Ein persönliches System für Hobbyköche zur kulinarischen Dokumentation*
+
+Eine Sammlung von Drafts Actions, die ich für meine eigene Küchenpraxis und den Austausch mit Freunden entwickelt habe...
 
 ## 🍳 Überblick
 
@@ -20,17 +22,8 @@ Dieses Repository enthält spezialisierte Drafts Actions für:
 
 ## 🚀 Schnellstart
 
-**Neu hier? Beginnen Sie hier:**
+-> [📥 Installation & Setup](docs/installation.md) - **Hier beginnen!**
 
-1. [📥 Installation & Setup](docs/installation.md) - **Hier beginnen!**
-2. [✅ Setup-Checkliste](docs/installation.md#setup-checkliste) - Nichts vergessen
-3. [📝 Erstes Journal](kategorien/journal-verwaltung/README.md#erste-schritte-nach-installation) - Loslegen
-
-## 📚 Dokumentation
-
-### 🚀 Erste Schritte
-- **[⚙️ Installation & Setup](docs/installation.md)** - Schritt-für-Schritt Anleitung mit Checkliste
-- **[🏗️ Systemvoraussetzungen](docs/installation.md#kritisches-setup)** - Erforderliche Drafts und Workspaces
 
 ### 📋 Kern-Workflows (Detaillierte Anleitungen)
 - **[📝 Journal-Verwaltung](actions/journal-verwaltung/README.md)** - *Herzstück des Systems*
@@ -47,14 +40,12 @@ Dieses Repository enthält spezialisierte Drafts Actions für:
 
 ## 📂 Einfache Action-Kategorien
 
-*Diese werden direkt hier erklärt - keine separaten READMEs nötig:*
-
 ### Koch-Planung
 - **auf den Kochplan setzen!** - Rezept für's Kochen vormerken
 - **Kochplan aufräumen** - Erledigte Einträge entfernen  
 - **Kochplan zeigen** - Aktuellen Plan anzeigen
 
-**💡 Tipp**: Setzen Sie den Kochplan in den Editor-Einstellungen auf Syntax "TaskPaper+" - dann können Sie Einträge durch Antippen abhaken!
+**💡 Tipp**: Setze den Kochplan in den Editor-Einstellungen auf Syntax "TaskPaper+" - dann könne Einträge durch Antippen abhaken!
 
 ### Menü-Planung
 - **zur Menüplanung hinzufügen** - Rezepte und Weine zu Menüs hinzufügen
@@ -119,14 +110,3 @@ Verbesserungsvorschläge und Pull Requests sind willkommen! Bitte:
 ## 📄 Lizenz
 
 MIT License - siehe [LICENSE](LICENSE) für Details.
-
-## 👨‍🍳 Entwickelt für
-
-Dieses System wurde für Hobbyköche und Food-Enthusiasten entwickelt, die ihre kulinarischen Aktivitäten systematisch dokumentieren möchten.
-
----
-
-**Viel Spaß beim kulinarischen Dokumentieren! 🍽️**
-
-> **💡 Neu hier?** Beginnen Sie mit der [Installation](docs/installation.md) und erstellen Sie dann Ihr erstes [kulinarisches Journal](kategorien/journal-verwaltung/README.md)!
-```

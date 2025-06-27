@@ -111,7 +111,7 @@ KW 51
 ```
 
 ### Eintragssyntax
-Die Einträge folgen einer logischen Struktur - nutzen Sie diese Trennzeichen für bessere Lesbarkeit:
+Die Einträge folgen einer logischen Struktur - nutze diese Trennzeichen für bessere Lesbarkeit:
 
 - **Komma `,`**: Verschiedene Elemente eines Gerichts
   - `Pasta Carbonara, grüner Salat`
@@ -193,13 +193,13 @@ Wird für Rezept-Auswahl benötigt.
 - **Neueste Woche oben**: Chronologisch rückwärts für bessere Navigation
 - **Jeden Tag dokumentieren**: Auch wenn nur `(nichts)` - Kontinuität ist wichtig
 - **WikiLinks nutzen**: `[[Rezeptname]]` macht Einträge anklickbar und verlinkt zu Rezepten
-- **Syntax-Einstellung**: Wählen Sie in den Editor-Einstellungen die Syntax "Journal culinaire" für besseres Highlighting
+- **Syntax-Einstellung**: Wähle in den Editor-Einstellungen die Syntax "Journal culinaire" für besseres Highlighting
 
 ### Eintragsstrategie
 - **Sofort dokumentieren**: Am besten direkt nach dem Essen
 - **Abends sammeln**: Alle Mahlzeiten des Tages auf einmal
 - **Wöchentlich ergänzen**: Rückblickend vervollständigen
-- **Konsistente Syntax**: Nutzen Sie die Trennzeichen systematisch
+- **Konsistente Syntax**: Nutze die Trennzeichen systematisch
 
 ### Integration optimieren
 - **Vor dem Kochen**: Rezept auf Kochplan setzen
@@ -219,28 +219,6 @@ Wird für Rezept-Auswahl benötigt.
 - **Wein-Links**: `[[Weinname]]` → Sprung zur Verkostungsnotiz
 - **Gäste-Links**: Über "Besuch war da" zu Gästeprofilen
 
-## 🚨 Häufige Probleme
-
-### "Journal nicht gefunden"
-- **Häufigster Fehler**: Draft-Titel falsch
-- Muss exakt "Journal culinaire 2025" heißen (mit aktuellem Jahr)
-- Groß-/Kleinschreibung beachten
-- Keine zusätzlichen Leerzeichen
-
-### "Datum nicht gefunden"
-- **Bei manueller Navigation**: Korrekte Zeile auswählen
-- **Bei automatischer Suche**: Woche muss existieren
-- Lösung: "Neue Woche ins Journal" ausführen
-
-### Rezept-Auswahl funktioniert nicht
-- Workspace "Rezepte" muss existieren
-- Rezepte müssen Tag `rezept` haben
-- Workspace muss Tag-Filter "rezept" enthalten
-
-### Bewertung erscheint nicht
-- Nur bei Rezepten mit Tag `neuesrezept`
-- Bewertung nur beim ersten Mal nach dem Kochen
-- Bereits bewertete Rezepte zeigen keine Abfrage
 
 ## 🔧 Anpassungen
 
@@ -249,20 +227,6 @@ Wird für Rezept-Auswahl benötigt.
 1. Neuen Draft erstellen: "Journal culinaire 2026"
 2. Altes Journal kann archiviert bleiben
 3. Actions arbeiten automatisch mit neuem Jahr
-```
-
-### Datumsformat ändern
-```javascript
-// In NeueWocheInsJournal.js anpassen:
-const wochentag = new Array("Mo", "Di", "Mi", "Do", "Fr", "Sa", "So")
-// Ändern zu:
-const wochentag = new Array("Montag", "Dienstag", ...)
-```
-
-### Menü-Optionen erweitern
-```javascript
-// In kulinarischerTagebucheintrag.js neue Buttons hinzufügen:
-menu.addButton("Auswärts gegessen", 4, false);
 ```
 
 ## 📊 Integration mit anderen Actions
@@ -280,29 +244,3 @@ Planung → Kochen → Dokumentation:
 3. "kulinarischer Tagebucheintrag" - Dokumentation
 4. "Weinflasche entkorkt" - Falls Wein dazu
 ```
-
-## 📈 Fortgeschrittene Nutzung
-
-### Statistiken und Auswertung
-- **Rezept-Häufigkeit**: Suche nach `[[Rezeptname]]`
-- **Wein-Konsum**: Suche nach "Wein:"
-- **Gäste-Besuche**: Suche nach "(zu Besuch:"
-- **Koch-Statistik**: Verhältnis Kochen vs. Reste vs. Nichts
-
-### Backup und Archivierung
-- **Jährliche Archive**: Alte Journals in separaten Ordnern
-- **Export**: Journal als Text/PDF für langfristige Archivierung
-- **Verlinkungen**: Bleiben auch nach Archivierung erhalten
-
-### Erweiterte Syntax
-```
-// Eigene Konventionen entwickeln:
-Mo 27.12. - [[Pasta Carbonara]] ⭐⭐⭐ Wein: 2019 [[Barolo]] (zu Besuch: Anna) 🍷
-//          Rezept + Bewertung + Wein + Gäste + Emoji
-```
-
----
-
-**Das Journal ist Ihr kulinarisches Gedächtnis - je konsequenter Sie es führen, desto wertvoller wird es! 📖👨‍🍳**
-
-> **💡 Tipp**: Beginnen Sie mit einfachen Einträgen und erweitern Sie die Komplexität schrittweise. Das Journal entwickelt sich mit Ihren Kochgewohnheiten.
