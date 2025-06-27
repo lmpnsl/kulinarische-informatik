@@ -54,6 +54,15 @@ Tags: keine speziellen Tags erforderlich
 Inhalt: Leer lassen (wird automatisch befüllt)
 ```
 
+#### 4. Backprotokoll ⭐ WICHTIG (nur wenn man Backen dokumentieren möchte)
+````
+Titel: Backprotokoll
+^^^^^^^^^^^^^
+EXAKT so schreiben!
+Tags: keine speziellen Tags erforderlich
+Inhalt: Leer lassen (wird automatisch befüllt)
+```
+
 ### Schritt 3: Benötigte Workspaces erstellen
 
 **Diese Workspaces MÜSSEN existieren!** Die Namen müssen **exakt** so geschrieben werden:
@@ -61,7 +70,7 @@ Inhalt: Leer lassen (wird automatisch befüllt)
 #### Workspace-Erstellung in Drafts:
 1. Gehe zu den Workspace-Einstellungen
 2. Tippe auf "+" um einen neuen Workspace zu erstellen
-3. Gebe den **exakten** Namen ein
+3. Gib den **exakten** Namen ein
 4. Setze den entsprechenden Tag-Filter
 5. Speichere den Workspace
 

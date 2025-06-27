@@ -15,6 +15,7 @@ Dieses Repository enthält spezialisierte Drafts Actions für:
 - Weinverkostungsnotizen
 - Gästeverwaltung
 - Kochplanung
+- Bäckerei-Dokumentation
 
 ## 📱 Kompatibilität
 
@@ -58,12 +59,16 @@ Dieses Repository enthält spezialisierte Drafts Actions für:
 ### App-Modi
 - **Kochmodus** - Fokus-Modus fürs Kochen (kein Bildschirm-Timeout, Link-Modus)
 
-## 🎯 Systemvoraussetzungen
+### Bäckerei
+- **Brot gebacken!** - Dokumentiert Backergebnisse mit automatischem Backprotokoll
+
+## Voraussetzungen
 
 Das System arbeitet mit folgenden Draft-Typen:
 - **Journal culinaire YYYY**: Hauptjournal für das jeweilige Jahr
 - **Kochplan**: Zentrale Kochplanung
 - **Weinprotokoll**: Chronologische Weinverkostungen
+- **Backprotokoll**: Dokumentation der Backergebnisse
 - **Rezept-Drafts**: Mit Tags "rezept", "neuesrezept" oder "verworfenesrezept"
 - **VKN-Drafts**: Verkostungsnotizen mit Tag "vkn"
 - **Gäste-Drafts**: Mit Tag "besuch"
@@ -78,11 +83,10 @@ Das System arbeitet mit folgenden Draft-Typen:
 - **kochen!**: Geflaggte Rezepte für die Küchenpraxis
 - **Neue Rezepte**: Noch nicht getestete Rezepte
 
-## 🆘 Hilfe und Support
+## 🆘 Hilfe
 
 ### Bei Problemen
 - **[🚨 Häufige Probleme](docs/installation.md#häufige-probleme-und-lösungen)** - Lösungen für typische Fehler
-- **[📋 Setup-Checkliste](docs/installation.md#setup-checkliste)** - Alles richtig konfiguriert?
 
 ### Workflow-spezifische Hilfe
 - [Journal-Probleme](actions/journal-verwaltung/README.md#häufige-probleme)
