@@ -8,37 +8,7 @@
 
 ### Schritt 1: Actions in Drafts importieren
 
-Da die Actions individuelle JavaScript-Skripte sind, müssen sie manuell in Drafts erstellt werden:
-
-1. **Neue Action erstellen**:
-   - Öffnen Sie Drafts
-   - Gehen Sie zu den Action-Einstellungen (Zahnrad-Symbol)
-   - Tippen Sie auf "+" um eine neue Action zu erstellen
-
-2. **Action konfigurieren**:
-   - Geben Sie den **Namen** der Action ein (z.B. "neues Rezept einspeisen")
-   - Fügen Sie ein **Icon** hinzu (optional)
-   - Wählen Sie **"Script"** als Action-Typ
-
-3. **JavaScript-Code einfügen**:
-   - Kopieren Sie den Inhalt der entsprechenden .js-Datei
-   - Fügen Sie ihn in das Script-Feld ein
-   - Speichern Sie die Action
-
-4. **Wiederholen** für alle gewünschten Actions
-
-### Empfohlene Installationsreihenfolge
-
-**Start mit den Grundlagen:**
-1. `kulinarischerTagebucheintrag.js` - Kern des Systems
-2. `NeueWocheInsJournal.js` - Wochenplanung
-3. `neuesRezeptEinspeisen.js` - Rezeptverwaltung
-4. `kochplanZeigen.js` - Kochplanung
-
-**Erweiterte Features:**
-5. `WeinflascheEntkorkt.js` - Weinverkostung
-6. `BesuchWarDa.js` - Gästeverwaltung
-7. Weitere nach Bedarf
+Da die Actions individuelle JavaScript-Skripte sind, müssen sie manuell in Drafts erstellt werden. Siehe dazu die [Drafts-Dokumentation](https://docs.getdrafts.com).
 
 ## 📋 Systemvoraussetzungen
 
@@ -89,11 +59,11 @@ Inhalt: Leer lassen (wird automatisch befüllt)
 **Diese Workspaces MÜSSEN existieren!** Die Namen müssen **exakt** so geschrieben werden:
 
 #### Workspace-Erstellung in Drafts:
-1. Gehen Sie zu den Workspace-Einstellungen
-2. Tippen Sie auf "+" um einen neuen Workspace zu erstellen
-3. Geben Sie den **exakten** Namen ein
-4. Setzen Sie den entsprechenden Tag-Filter
-5. Speichern Sie den Workspace
+1. Gehe zu den Workspace-Einstellungen
+2. Tippe auf "+" um einen neuen Workspace zu erstellen
+3. Gebe den **exakten** Namen ein
+4. Setze den entsprechenden Tag-Filter
+5. Speichere den Workspace
 
 #### Benötigte Workspaces:
 
@@ -109,31 +79,6 @@ Inhalt: Leer lassen (wird automatisch befüllt)
 - Name: `Verkostungsnotizen` (exakt so!)
 - Filter: Tag enthält "vkn"
 
-## ✅ Setup-Checkliste
-
-Haken Sie jeden Punkt ab, um sicherzustellen, dass alles funktioniert:
-
-### Installation:
-- [ ] Drafts App installiert (Version 5.x+)
-- [ ] Mindestens 3-4 wichtigste Actions erstellt
-- [ ] Actions getestet (keine JavaScript-Fehler)
-
-### Kritische Drafts:
-- [ ] Draft "Journal culinaire 2025" erstellt (exakter Titel!)
-- [ ] Draft "Kochplan:" erstellt (mit Doppelpunkt!)
-- [ ] Draft "Weinprotokoll" erstellt (falls Weinverkostung gewünscht)
-
-### Kritische Workspaces:
-- [ ] Workspace "Rezepte" erstellt (Tag-Filter: "rezept")
-- [ ] Workspace "Menüplanung" erstellt (Tag-Filter: "menüplanung")  
-- [ ] Workspace "Verkostungsnotizen" erstellt (Tag-Filter: "vkn")
-
-### Funktionstest:
-- [ ] "Neue Woche ins Journal" ausgeführt → Woche wurde eingefügt
-- [ ] "kulinarischer Tagebucheintrag" getestet → Menü erscheint
-- [ ] Erstes Rezept mit "neues Rezept einspeisen" erstellt
-- [ ] "Kochplan zeigen" funktioniert
-
 ## 🏷️ Tag-System verstehen
 
 Das System arbeitet mit einem strukturierten Tag-System:
@@ -142,7 +87,7 @@ Das System arbeitet mit einem strukturierten Tag-System:
 - `rezept` - Grundtag für alle Rezepte
 - `neuesrezept` - Neue, noch nicht getestete Rezepte  
 - `verworfenesrezept` - Rezepte, die nicht gut waren
-- `rezept/hauptgang` - Kategorien mit Präfix
+- `rezept/beilage` - Kategorien mit Präfix
 - `rezept/dessert` - Weitere Kategorien
 - `rezept/vorspeise` - Etc.
 
@@ -184,70 +129,6 @@ Action: "Neue Woche ins Journal"
 → Verkostungsnotiz wird erstellt und verlinkt
 ```
 
-## 🆘 Häufige Probleme und Lösungen
-
-### "Draft nicht gefunden" Fehler
-⭐ **Häufigster Fehler!** Überprüfen Sie:
-- Draft-Titel **exakt** richtig geschrieben?
-- Journal: "Journal culinaire 2025" (mit aktuellem Jahr!)
-- Kochplan: "Kochplan:" (mit Doppelpunkt!)
-- Workspace-Namen **exakt** richtig?
-
-### JavaScript-Fehler
-- Stellen Sie sicher, dass der komplette Code kopiert wurde
-- Prüfen Sie auf fehlende Anführungszeichen oder Klammern
-- Testen Sie Actions einzeln
-
-### Actions erscheinen nicht
-- Überprüfen Sie die Action-Sichtbarkeit (Einstellungen)
-- Stellen Sie sicher, dass Actions aktiviert sind
-- Workspaces korrekt konfiguriert?
-
-### Tag-System funktioniert nicht
-- Verwenden Sie nur kleingeschriebene Tags
-- Nutzen Sie "Tags zuweisen" für nachträgliche Tag-Vergabe
-- Überprüfen Sie Tag-Filter in Workspaces
-
-## ⚙️ Anpassungen
-
-### Tags erweitern
-Sie können weitere Rezept-Kategorien hinzufügen:
-1. Erstellen Sie neue Tags mit dem Präfix `rezept/`
-2. Z.B. `rezept/backen`, `rezept/vegetarisch`, etc.
-3. Passen Sie Workspace-Filter entsprechend an
-
-### Actions anpassen
-Die meisten Actions können bearbeitet werden:
-1. Gehen Sie zur Action-Liste
-2. Tippen Sie auf die drei Punkte neben einer Action
-3. Wählen Sie "Bearbeiten"
-4. Passen Sie JavaScript-Code oder Einstellungen an
-
-## 🔄 Wartung
-
-### Jährliches Update
-- Erstellen Sie zum Jahresende einen neuen Journal-Draft
-- "Journal culinaire 2026" für das neue Jahr
-- Alte Journals können archiviert bleiben
-
-### Backup
-- Erstellen Sie regelmäßig Backups Ihrer Drafts
-- Exportieren Sie wichtige Actions als Sicherung
-
-## 📞 Hilfe
-
-### Bei Problemen:
-1. Prüfen Sie die Setup-Checkliste
-2. Kontrollieren Sie exakte Schreibweise aller Namen
-3. Testen Sie Actions einzeln
-4. Überprüfen Sie JavaScript-Konsole in Drafts
-
-### Tipps:
-- Beginnen Sie mit dem kulinarischen Journal (siehe [Journal-Verwaltung](../kategorien/journal-verwaltung/README.md))
-- Nutzen Sie "Kochmodus" beim aktiven Kochen  
-- "Zufallsrezept zeigen!" hilft bei der Inspiration
-- Sichern Sie regelmäßig Ihre Daten
-
 ## 📖 Nächste Schritte
 
 Nach erfolgreicher Installation:
@@ -262,9 +143,3 @@ Nach erfolgreicher Installation:
 - **[📝 Journal-Verwaltung](../kategorien/journal-verwaltung/README.md)** - Detaillierte Journal-Anleitung
 - **[🍳 Rezept-Verwaltung](../kategorien/rezept-verwaltung/README.md)** - Rezepte organisieren
 - **[🍷 Wein-Verwaltung](../kategorien/wein-verwaltung/README.md)** - Weinverkostung (für Fortgeschrittene)
-
----
-
-**Viel Spaß beim kulinarischen Dokumentieren! 👨‍🍳**
-
-> **💡 Tipp:** Beginnen Sie klein - installieren Sie erst 3-4 Actions, testen Sie diese gründlich, und erweitern Sie dann nach Bedarf.
