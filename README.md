@@ -48,7 +48,7 @@ Dieses Repository enthält spezialisierte Drafts Actions für:
 - **Kochplan aufräumen** - Erledigte Einträge entfernen  
 - **Kochplan zeigen** - Aktuellen Plan anzeigen
 
-**💡 Tipp**: Setze den Kochplan in den Editor-Einstellungen auf Syntax "TaskPaper+" - dann könne Einträge durch Antippen abhaken!
+**💡 Tipp**: Setze den Kochplan in den Editor-Einstellungen auf Syntax "TaskPaper+" - dann kannst du Einträge durch Antippen abhaken. 
 
 ### Menü-Planung
 - **zur Menüplanung hinzufügen** - Rezepte und Weine zu Menüs hinzufügen
