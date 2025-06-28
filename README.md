@@ -4,7 +4,7 @@
 
 Eine Sammlung von Actions für die App [Drafts](https://getdrafts.com), die ich für meine eigene Küchenpraxis und den Austausch mit Freunden entwickelt habe. 
 
-Das System ist **organisch aus meiner eigenen Küchenpraxis** entstanden und über Jahre gewachsen. Entsprechend uneinheitlich ist der Code teilweise.
+Das System ist organisch aus meiner eigenen Küchenpraxis entstanden und über Jahre gewachsen. Entsprechend uneinheitlich ist der Code teilweise.
 
 ## 🍳 Überblick
 
