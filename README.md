@@ -149,13 +149,13 @@ Am Ende jeder Journal-Zeile kann Besuch eingegeben werden. Jeder Gast hat einen 
 
 Die Weinverkostungs-Action hat drei Modi:
 
-#### Neuen Wein hinzufügen
+#### 1. Neuen Wein hinzufügen
 - **Eingabe**: Jahrgang + Weingut/Wein
 - **Template**: Vollständige VKN-Struktur mit Emoji-Platzhaltern
 - **Automatik**: VKN wird erstellt, archiviert, getaggt
 - **Verlinkung**: Journal + Weinprotokoll werden aktualisiert
 
-#### Schnell-VKN übernehmen
+#### 2. Schnell-VKN übernehmen
 - **Voraussetzung**: Quick-VKN in Inbox vorhanden
 - **Verarbeitung**: 
   - Name/Jahrgang werden validiert und korrigiert
@@ -163,7 +163,7 @@ Die Weinverkostungs-Action hat drei Modi:
   - Neue VKN wird erstellt oder bestehende erweitert
 - **Cleanup**: Quick-VKN wird nach Übernahme gelöscht
 
-#### Bestehende VKN erweitern
+#### 3. Bestehende VKN erweitern
 - **Jahrgangs-Auswahl**: Aus bereits verkosteten Jahrgängen
 - **Option "Neuer Jahrgang"**: Für weitere Jahrgänge derselben Kellerei
 - **Template-Einfügung**: Neue Verkostungsnotiz wird eingefügt
