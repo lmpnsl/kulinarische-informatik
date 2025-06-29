@@ -188,7 +188,7 @@ Die Weinverkostungs-Action hat drei Modi:
 - **Kochplan aufräumen**: Erledigte Einträge entfernen
 - **Kochplan zeigen**: Aktuellen Plan anzeigen
 - **Kochmodus**: Fokus-Modus fürs Kochen (kein Bildschirm-Timeout, keine versehentlichen Bearbeitungen)
-- **auf die Einkaufsliste**: Zutaten aus Rezept auswählen und zur iOS Erinnerungen-App hinzufügen
+- **auf die Einkaufsliste**: Zutaten aus Rezept auswählen, ggf. Mengen umrechnen und zur iOS Erinnerungen-App hinzufügen
 
 ### Wein-Verwaltung
 - **Weinflasche entkorkt**: Wein mit detaillierte Verkostungsnotizen (VKN) ins Journal aufnehmen
