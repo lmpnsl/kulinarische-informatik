@@ -1,4 +1,4 @@
-let template = "\nℹ️ \n👃 \n👄 \n💬 \n⭐ "
+let template = "# \nℹ️ \n👃 \n👄 \n💬 \n⭐ "
 let wine = "";
 
 // Zeile
