@@ -20,7 +20,10 @@ Ein persönliches System für Hobbyköche zur kulinarischen Dokumentation. Eine 
 ## Installation
 
 1. Lade die Action-Dateien aus dem Repository herunter
-2. Importiere die Actions in Drafts über "Manage Actions" → "Import Action"
+2. Erstelle für jede gewünschte Funktion eine neue Action in Drafts:
+    - "Manage Actions" → "+" → "New Action"
+    - Füge einen "Script" Action Step hinzu
+    - Kopiere den JavaScript-Code aus der entsprechenden .js-Datei
 3. Erstelle die benötigten Drafts (siehe unten)
 4. Passe die Workspace-Konfiguration an deine Bedürfnisse an
 
