@@ -209,7 +209,7 @@ Die Action **auf die Einkaufsliste** verwendet die iOS Erinnerungen-App:
 ```
 
 ### Syntax
-Für die Syntax im Journal culinaire gibt es eine spezielle [[Drafts-Syntax]](/syntax/), die installiert werden kann.
+Für die Syntax im Journal culinaire gibt es eine spezielle [Drafts-Syntax](/syntax/), die installiert werden kann.
 
 ## Lizenz
 
