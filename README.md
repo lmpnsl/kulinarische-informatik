@@ -202,6 +202,7 @@ Die Weinverkostungs-Action hat drei Modi:
 
 2. **Workspaces installieren:**
   Klicke auf die Install-Links für die empfohlenen Workspaces:
+  
   - [Rezepte](/installation/workspace-rezepte.txt)
   - [Verkostungsnotizen](/installation/workspace-vkn.txt)
   - [Besuchsbuchführung](/installation/workspace-besuch.txt)
