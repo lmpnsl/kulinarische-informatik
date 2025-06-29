@@ -17,39 +17,6 @@ Ein persönliches System für Hobbyköche zur kulinarischen Dokumentation. Eine 
 - iOS, iPadOS oder macOS
 - Deutsche Sprache
 
-## Installation
-
-## Installation
-
-**Option A: Automatische Installation (empfohlen)**
-
-1. **Action Group installieren:**
-  Die [Install-URL](/installation/actiongroup-install-url.txt) aufrufen.
-
-2. **Workspaces installieren:**
-  Klicke auf die Install-Links für die empfohlenen Workspaces:
-  - Rezepte
-  - Menüplanung
-  - Verkostungsnotizen
-  - Besuchsbuchführung
-  - kochen!
-  - Neue Rezepte
-  - Journale
-
-1. Erstelle die benötigten Drafts (siehe unten)
-
-**Option B: Manuelle Installation**
-
-1. Lade die Action-Dateien aus dem Repository herunter
-2. Erstelle für jede gewünschte Funktion eine neue Action in Drafts:
-   - "Manage Actions" → "+" → "New Action"
-   - Füge einen "Script" Action Step hinzu
-   - Kopiere den JavaScript-Code aus der entsprechenden .js-Datei
-3. Erstelle die benötigten Drafts (siehe unten)
-4. Passe die Workspace-Konfiguration an deine Bedürfnisse an
-
-**Hinweis:** Die Install-URLs funktionieren nur, wenn Drafts bereits auf dem Gerät installiert ist. Bei Problemen nutzen Sie die manuelle Installation.
-
 ## benötigte Drafts
 
 Das System arbeitet mit folgenden Drafts. Diese Drafts müssen vorab manuell erstellt werden. Die fett markierten Namen müssen exakt als Überschrift verwendet werden:
@@ -71,22 +38,12 @@ Das System arbeitet mit folgenden Drafts. Diese Drafts müssen vorab manuell ers
 ## Workspaces (empfohlen)
 
 - **Rezepte**: Für die Rezeptverwaltung (Tag `rezept`, Archive)
-- **Menüplanung**: Für Menüplanungen (Tag `menuplanung`, Inbox)
 - **Verkostungsnotizen**: Für Weinnotizen (Tag `vkn`, Archive)
 - **Besuchsbuchführung**: Alphabetische Liste aller Gäste (Tag `besuch`, Archive, alphabetisch sortiert)
 - **kochen!**: Geflaggte Rezepte für die Küchenpraxis (Flag, Inbox + Archive)
 - **Neue Rezepte**: Noch nicht getestete Rezepte (Tag `neuesrezept`, Archive)
 - **Journale**: Für alle Journale (auch aus älteren Jahren) (Tag `journalculinaire`)
 
-## Workflow
-
-**Planung → Kochen → Dokumentation:**
-
-1. Kochplan erstellen/anzeigen
-2. Kochmodus aktivieren (beim Kochen)
-3. Kulinarischer Tagebucheintrag (nach dem Essen)
-4. Weinflasche entkorkt (falls Wein dazu)
-5. Besuch war da (falls Gäste da waren)
 
 ## das Journal culinaire
 
@@ -218,6 +175,36 @@ Die Weinverkostungs-Action hat drei Modi:
 - **Besuch war da**: Gäste dokumentieren, automatische Gästeprofile
 - **Brot gebacken**: Backergebnisse mit automatischem Backprotokoll
 
+## Installation
+
+**Option A: Automatische Installation (empfohlen)**
+
+1. **Action Group installieren:**
+  Die [Install-URL](/installation/actiongroup-install-url.txt) aufrufen.
+
+2. **Workspaces installieren:**
+  Klicke auf die Install-Links für die empfohlenen Workspaces:
+  - [Rezepte](/installation/workspace-rezepte.txt)
+  - [Verkostungsnotizen](/installation/workspace-vkn.txt)
+  - [Besuchsbuchführung](/installation/workspace-besuch.txt)
+  - [kochen!](/installation/workspace-kochen.txt)
+  - [Neue Rezepte](/installation/workspace-neue-rezepte.txt)
+  - [Journales culinaires](/installation/workspace-journales.txt)
+
+1. Erstelle die benötigten Drafts (siehe unten)
+
+**Option B: Manuelle Installation**
+
+1. Lade die Action-Dateien aus dem Repository herunter
+2. Erstelle für jede gewünschte Funktion eine neue Action in Drafts:
+   - "Manage Actions" → "+" → "New Action"
+   - Füge einen "Script" Action Step hinzu
+   - Kopiere den JavaScript-Code aus der entsprechenden .js-Datei
+3. Erstelle die benötigten Drafts (siehe unten)
+4. Passe die Workspace-Konfiguration an deine Bedürfnisse an
+
+**Hinweis:** Die Install-URLs funktionieren nur, wenn Drafts bereits auf dem Gerät installiert ist. Bei Problemen nutzen Sie die manuelle Installation.
+
 ## Konfiguration
 
 Setze den Kochplan in den Editor-Einstellungen auf Syntax "TaskPaper+" - dann können Einträge durch Antippen abgehakt werden.
@@ -231,6 +218,15 @@ Die Action **auf die Einkaufsliste** verwendet die iOS Erinnerungen-App:
 ```javascript
 4  const shoppingList = ReminderList.findOrCreate("DeinListenname");
 ```
+## Workflow
+
+**Planung → Kochen → Dokumentation:**
+
+1. Kochplan erstellen/anzeigen
+2. Kochmodus aktivieren (beim Kochen)
+3. Kulinarischer Tagebucheintrag (nach dem Essen)
+4. Weinflasche entkorkt (falls Wein dazu)
+5. Besuch war da (falls Gäste da waren)
 
 ### Syntax
 Für die Syntax im Journal culinaire gibt es eine spezielle [Drafts-Syntax](/syntax/), die installiert werden kann.
