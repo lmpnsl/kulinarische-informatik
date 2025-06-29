@@ -1,0 +1,200 @@
+{
+  "name": "Journal culinaire",
+  "author": "miq",
+  "description": "Syntax für kulinarische Tagebücher",
+  "sampleText": "Syntax für Journal culinarie\n\nMo 03.01. - (Reste)\nDi - (nichts)\nMi - Burritos und Tacos mit Käse\nDo - Fried Rice\nFr - Pizza mit Kartoffeln, Caesar Salad\nSa - Grünkohl. @Wein: Bermuda; Kissinger Null Ohm rot 2020; Beaujolais primeur ( @Sören zu @Besuch )\nSo - Dan Dan Mien (mittags). Abends Grünkohlreste",
+  "titleDefinition": {
+    "match": "^Journal\\sculinaire\\s\\d{4}$",
+    "capture": "1",
+    "transform": "none"
+  },
+  "fileExtensions": [
+    "markdown",
+    "mkdown",
+    "md",
+    "mdown"
+  ],
+  "listCompletionDefinitions": [
+    {
+      "comment": "",
+      "enabled": true,
+      "match": "(^[ |\\t]*)((\\* \\[[ x]\\]|- \\[[ x]\\]|\\+ \\[[ x]\\]|\\*|-|\\+|>) )(.*)",
+      "captures": {
+        "indent": "1",
+        "prefix": "2",
+        "line": "4",
+        "sequence": ""
+      },
+      "replacements": {
+        "[x]": "[ ]",
+        "{x}": "{ }",
+        "{-}": "{ }"
+      }
+    },
+    {
+      "comment": "",
+      "enabled": true,
+      "match": "(^[ |\\t]*)((\\d+)\\. (\\[[ x]\\] )?)(.*)",
+      "sequencePadding": "0",
+      "captures": {
+        "indent": "1",
+        "prefix": "2",
+        "line": "5",
+        "sequence": "3"
+      },
+      "replacements": {
+        "[x]": "[ ]",
+        "{x}": "{ }",
+        "{-}": "{ }"
+      }
+    }
+  ],
+  "indentationPatterns": [
+    {
+      "match": "^[A-Z][a-z]\\s|^\\d\\d\\.\\d\\d\\.",
+      "exclusive": true,
+      "comment": "Indent days",
+      "indentCapture": "0",
+      "indentScope": "text.normal"
+    }
+  ],
+  "rangeExtensionType": {
+    "default": "lineExtended"
+  },
+  "patterns": [
+    {
+      "match": "(^Journal\\sculinaire\\s\\d{4})|Weinprotokoll\\n\\n",
+      "exclusive": false,
+      "comment": "Titel",
+      "captures": {
+        "0": {
+          "scope": "text.heading01"
+        }
+      }
+    },
+    {
+      "match": "(^\\w\\w(\\s(\\d?\\d.){2})?\\s-\\s)",
+      "exclusive": true,
+      "comment": "jornal date",
+      "captures": {
+        "1": {
+          "scope": "journal.date"
+        }
+      }
+    },
+    {
+      "match": "(^(\\d\\d\\.){2}\\d\\d\\d\\d\\s-\\s)",
+      "exclusive": true,
+      "comment": "wine jornal date",
+      "captures": {
+        "1": {
+          "scope": "winejournal.date"
+        }
+      }
+    },
+    {
+      "match": "(^KW \\d+$)",
+      "exclusive": true,
+      "comment": "jornal week number",
+      "captures": {
+        "1": {
+          "scope": "journal.week"
+        }
+      }
+    },
+    {
+      "match": "(\\((.*?)\\))",
+      "exclusive": true,
+      "comment": "Klammern",
+      "captures": {
+        "1": {
+          "scope": "journal.braces"
+        }
+      }
+    },
+    {
+      "match": "(@Wein|\\sWein)([^\\(\n]*)",
+      "scope": "journal.wine",
+      "exclusive": false,
+      "comment": "Wein-Marker",
+      "captures": {
+        "1": {
+          "scope": "journal.wine.keyword"
+        },
+        "2": {
+          "scope": "journal.wines",
+          "exclusive": true
+        }
+      }
+    },
+    {
+      "match": "(;|\\.)",
+      "exclusive": true,
+      "comment": "Trennzeichen",
+      "captures": {
+        "1": {
+          "scope": "journal.seperator"
+        }
+      }
+    }
+  ],
+  "linkDefinitions": [
+    {
+      "match": "(\\[\\[)(((d|u|s|w|google|wikipedia|bear|url):)?([^\\[]+?))(\\]\\])",
+      "templates": {
+        "": "drafts://open?title=[[value]]&allowCreate=true",
+        "google": "https://www.google.com/search?q=[[value]]",
+        "wikipedia": "https://en.wikipedia.org/wiki/[[value]]",
+        "u": "drafts://open?uuid=[[value]]",
+        "d": "drafts://open?title=[[value]]&allowCreate=true",
+        "bear": "bear://x-callback-url/open-note?title=[[value]]",
+        "w": "drafts://workspace?name=[[value]]",
+        "s": "drafts://quickSearch?query=[[value]]",
+        "url": "[[value_unencoded]]"
+      },
+      "enabled": true,
+      "captures": {
+        "value": "5",
+        "key": "4",
+        "prefix": "1",
+        "suffix": "6",
+        "link": "2"
+      },
+      "scopes": {
+        "value": "text.italic",
+        "key": "text.bold",
+        "prefix": "markup",
+        "suffix": "markup"
+      }
+    }
+  ],
+  "navigationPatterns": [
+    {
+      "match": "(Mo\\s)(\\d{2}\\.\\d{2}\\.)",
+      "rangeCapture": "0",
+      "comment": "Wochen",
+      "prefix": "Woche ab",
+      "labelCapture": "2",
+      "identifierCapture": "1",
+      "level": 0
+    }
+  ],
+  "taskMarkDefinitions": [
+    {
+      "match": "(\\[[ xX]\\])",
+      "states": [
+        "[ ]",
+        "[x]"
+      ],
+      "enabled": true,
+      "rangeType": "task",
+      "captures": {
+        "state": "1",
+        "interactive": "1"
+      },
+      "scopes": {
+        "interactive": "text.monospace.bold"
+      }
+    }
+  ]
+}

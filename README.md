@@ -41,13 +41,8 @@ Das System arbeitet mit folgenden Drafts. Diese Drafts müssen vorab manuell ers
 - Drafts zur Menüplanung: Tag `menüplanung`
 
 **Beispiel:**
-```
-# Journal culinaire 2025
-
-       EXAKT so schreiben! Mit aktuellem Jahr!
-
-Tag: journalculinaire
-Inhalt: wird automatisch befüllt
+```markdown
+1  # Journal culinaire 2025
 ```
 
 ## Workspaces (empfohlen)
@@ -108,7 +103,7 @@ Die Einträge folgen einer logischen Struktur - nutze diese Trennzeichen für be
 
 **Beispiel komplexer Eintrag:**
 ```
-Mo 27.12. - Müsli. [[Coq au Vin]], Kartoffeln, Bohnen; [[Tiramisu]] Wein: 2019 [[Côtes du Rhône]] (zu Besuch: Anna, Marcus)
+Mo 27.12. - Müsli. Coq au Vin, Kartoffeln, Bohnen; Tiramisu. Wein: 2019 [[Côtes du Rhône]] (zu Besuch: Anna, Marcus)
 ```
 
 **Beispiel Woche im Journal:**
@@ -174,13 +169,13 @@ Die Weinverkostungs-Action hat drei Modi:
 ## Actions
 
 ### Journal-Verwaltung
-- **Kulinarischer Tagebucheintrag**: Tägliche Essenseinträge. Menü erlaubt häufige Optionen ("Rezept gekocht", "Es gab Reste" usw.); die Auswahl "Rezept gekocht" erlaubt eine Auswahl und schließt weitere Prozession der Rezepteverwaltung an.
+- **Kulinarischer Tagebucheintrag**: Tägliche Essenseinträge. Menü erlaubt häufige Optionen ("Rezept gekocht", "Es gab Reste" usw.); die Auswahl "Rezept gekocht" erlaubt eine Auswahl und schließt ggf. weitere Prozession der Rezepteverwaltung an.
 - **Neue Woche ins Journal**: Erstellt automatisch eine neue Woche mit formatierter Datumstabelle
 
 ### Rezept-Verwaltung
 - **Neues Rezept einspeisen**: Rezepte kategorisieren und taggen
 - **Hat gut geschmeckt!**: als bewährtes Rezept archivieren
-- **Das koche ich nie wieder!**: Schlechte Rezepte aussortieren
+- **Das koche ich nie wieder!**: als schlechtes Rezepte aussortieren
 - **Tags zuweisen:** Tags zu bestehenden Drafts hinzufügen aus einer Auswahl bereits vergebener Tags. Die Tags nutzen den Namespace `rezept`, also z.B. `rezept/suppe`, `rezept/vegetarisch` usw.
 
 ### Kochplanung
@@ -212,6 +207,9 @@ Die Action **auf die Einkaufsliste** verwendet die iOS Erinnerungen-App:
 ```javascript
 4  const shoppingList = ReminderList.findOrCreate("DeinListenname");
 ```
+
+### Syntax
+Für die Syntax im Journal culinaire gibt es eine spezielle Drafts-Syntax, die installiert werden kann (s. /syntax).
 
 ## Lizenz
 
