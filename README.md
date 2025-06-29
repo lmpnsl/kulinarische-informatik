@@ -19,13 +19,36 @@ Ein persönliches System für Hobbyköche zur kulinarischen Dokumentation. Eine 
 
 ## Installation
 
+## Installation
+
+**Option A: Automatische Installation (empfohlen)**
+
+1. **Action Group installieren:**
+  Die [Install-URL](/installation/actiongroup-install-url.txt) aufrufen.
+
+2. **Workspaces installieren:**
+  Klicke auf die Install-Links für die empfohlenen Workspaces:
+  - Rezepte
+  - Menüplanung
+  - Verkostungsnotizen
+  - Besuchsbuchführung
+  - kochen!
+  - Neue Rezepte
+  - Journale
+
+1. Erstelle die benötigten Drafts (siehe unten)
+
+**Option B: Manuelle Installation**
+
 1. Lade die Action-Dateien aus dem Repository herunter
 2. Erstelle für jede gewünschte Funktion eine neue Action in Drafts:
-    - "Manage Actions" → "+" → "New Action"
-    - Füge einen "Script" Action Step hinzu
-    - Kopiere den JavaScript-Code aus der entsprechenden .js-Datei
+   - "Manage Actions" → "+" → "New Action"
+   - Füge einen "Script" Action Step hinzu
+   - Kopiere den JavaScript-Code aus der entsprechenden .js-Datei
 3. Erstelle die benötigten Drafts (siehe unten)
 4. Passe die Workspace-Konfiguration an deine Bedürfnisse an
+
+**Hinweis:** Die Install-URLs funktionieren nur, wenn Drafts bereits auf dem Gerät installiert ist. Bei Problemen nutzen Sie die manuelle Installation.
 
 ## benötigte Drafts
 
@@ -47,13 +70,13 @@ Das System arbeitet mit folgenden Drafts. Diese Drafts müssen vorab manuell ers
 
 ## Workspaces (empfohlen)
 
-- **Rezepte**: Für die Rezeptverwaltung
-- **Menüplanung**: Für Menüplanungen
-- **Verkostungsnotizen**: Für Weinnotizen
-- **Besuchsbuchführung**: Alphabetische Liste aller Gäste
-- **kochen!**: Geflaggte Rezepte für die Küchenpraxis
-- **Neue Rezepte**: Noch nicht getestete Rezepte
-- **Journale**: Für alle Journale (auch aus älteren Jahren)
+- **Rezepte**: Für die Rezeptverwaltung (Tag `rezept`, Archive)
+- **Menüplanung**: Für Menüplanungen (Tag `menuplanung`, Inbox)
+- **Verkostungsnotizen**: Für Weinnotizen (Tag `vkn`, Archive)
+- **Besuchsbuchführung**: Alphabetische Liste aller Gäste (Tag `besuch`, Archive, alphabetisch sortiert)
+- **kochen!**: Geflaggte Rezepte für die Küchenpraxis (Flag, Inbox + Archive)
+- **Neue Rezepte**: Noch nicht getestete Rezepte (Tag `neuesrezept`, Archive)
+- **Journale**: Für alle Journale (auch aus älteren Jahren) (Tag `journalculinaire`)
 
 ## Workflow
 
@@ -171,6 +194,7 @@ Die Weinverkostungs-Action hat drei Modi:
 ### Journal-Verwaltung
 - **Kulinarischer Tagebucheintrag**: Tägliche Essenseinträge. Menü erlaubt häufige Optionen ("Rezept gekocht", "Es gab Reste" usw.); die Auswahl "Rezept gekocht" erlaubt eine Auswahl und schließt ggf. weitere Prozession der Rezepteverwaltung an.
 - **Neue Woche ins Journal**: Erstellt automatisch eine neue Woche mit formatierter Datumstabelle
+- **Kalenderwochen sortieren**: Im Journal steht die aktuelle Woche oben für schnellen Zugriff beim Schreiben. Die Action sortiert die Wochen in der kalendarisch richtigen Ordnung – am besten am Anfang des neuen Jahres ausführen und dann archivieren.
 
 ### Rezept-Verwaltung
 - **Neues Rezept einspeisen**: Rezepte kategorisieren und taggen
