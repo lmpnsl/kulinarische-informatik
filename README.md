@@ -17,6 +17,37 @@ Ein persönliches System für Hobbyköche zur kulinarischen Dokumentation. Eine 
 - iOS, iPadOS oder macOS
 - Deutsche Sprache
 
+## Installation
+
+**Option A: Automatische Installation (empfohlen)**
+
+1. **Action Group installieren:**
+  Die [Install-URL](/installation/actiongroup-install-url.txt) aufrufen.
+
+2. **Workspaces installieren:**
+  Klicke auf die Install-Links für die empfohlenen Workspaces:
+  
+    - [Rezepte](/installation/workspace-rezepte.txt)
+    - [Verkostungsnotizen](/installation/workspace-vkn.txt)
+    - [Besuchsbuchführung](/installation/workspace-besuch.txt)
+    - [kochen!](/installation/workspace-kochen.txt)
+    - [Neue Rezepte](/installation/workspace-neue-rezepte.txt)
+    - [Journales culinaires](/installation/workspace-journales.txt)
+
+1. Erstelle die benötigten Drafts (siehe unten)
+
+**Option B: Manuelle Installation**
+
+1. Lade die Action-Dateien aus dem Repository herunter
+2. Erstelle für jede gewünschte Funktion eine neue Action in Drafts:
+   - "Manage Actions" → "+" → "New Action"
+   - Füge einen "Script" Action Step hinzu
+   - Kopiere den JavaScript-Code aus der entsprechenden .js-Datei
+3. Erstelle die benötigten Drafts (siehe unten)
+4. Passe die Workspace-Konfiguration an deine Bedürfnisse an
+
+**Hinweis:** Die Install-URLs funktionieren nur, wenn Drafts bereits auf dem Gerät installiert ist. Bei Problemen nutzen Sie die manuelle Installation.
+
 ## benötigte Drafts
 
 Das System arbeitet mit folgenden Drafts. Diese Drafts müssen vorab manuell erstellt werden. Die fett markierten Namen müssen exakt als Überschrift verwendet werden:
@@ -193,36 +224,7 @@ Die Weinverkostungs-Action hat drei Modi:
 - **Besuch war da**: Gäste dokumentieren, automatische Gästeprofile
 - **Brot gebacken**: Backergebnisse mit automatischem Backprotokoll
 
-## Installation
 
-**Option A: Automatische Installation (empfohlen)**
-
-1. **Action Group installieren:**
-  Die [Install-URL](/installation/actiongroup-install-url.txt) aufrufen.
-
-2. **Workspaces installieren:**
-  Klicke auf die Install-Links für die empfohlenen Workspaces:
-  
-    - [Rezepte](/installation/workspace-rezepte.txt)
-    - [Verkostungsnotizen](/installation/workspace-vkn.txt)
-    - [Besuchsbuchführung](/installation/workspace-besuch.txt)
-    - [kochen!](/installation/workspace-kochen.txt)
-    - [Neue Rezepte](/installation/workspace-neue-rezepte.txt)
-    - [Journales culinaires](/installation/workspace-journales.txt)
-
-1. Erstelle die benötigten Drafts (siehe unten)
-
-**Option B: Manuelle Installation**
-
-1. Lade die Action-Dateien aus dem Repository herunter
-2. Erstelle für jede gewünschte Funktion eine neue Action in Drafts:
-   - "Manage Actions" → "+" → "New Action"
-   - Füge einen "Script" Action Step hinzu
-   - Kopiere den JavaScript-Code aus der entsprechenden .js-Datei
-3. Erstelle die benötigten Drafts (siehe unten)
-4. Passe die Workspace-Konfiguration an deine Bedürfnisse an
-
-**Hinweis:** Die Install-URLs funktionieren nur, wenn Drafts bereits auf dem Gerät installiert ist. Bei Problemen nutzen Sie die manuelle Installation.
 
 ## Konfiguration
 
