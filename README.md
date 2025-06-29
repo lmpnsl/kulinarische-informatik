@@ -28,12 +28,29 @@ Das System arbeitet mit folgenden Drafts. Diese Drafts müssen vorab manuell ers
 - **Rezept-Drafts**: Mit Tags `rezept`, `neuesrezept` oder `verworfenesrezept`
 - **VKN-Drafts**: Verkostungsnotizen mit Tag `vkn`
 - **Gäste-Drafts**: Mit Tag `besuch`
-- Drafts zur Menüplanung: Tag `menüplanung`
+
+Außerdem benötigt man zwei spezielle Drafts für die Wein-Action:
+- **+++ Neuen Wein hinzufügen +++**: Trigger-Draft für neue Verkostungsnotizen mit dem genauen Inhalt:
+```
+# +++ Neuen Wein hinzufügen +++
+Ist der Wein nicht dabei? Dann füge eine neue VKN hinzu! 🍾
+```
+- **+++ Schnell-VKN übernehmen +++**: Trigger-Draft für Quick-VKN-Verarbeitung mit dem genauen Inhalt:
+```
+# +++ Schnell-VKN übernehmen +++
+VKN schon angelegt? Verkostungsnotitz übernehmen 🍷
+```
 
 **Beispiel:**
 ```markdown
 1  # Journal culinaire 2025
 ```
+
+Zusätzlich werden manuell getaggte Drafts in verschiedene Abläufe einbezogen.
+- Rezept-Drafts mit Tags `rezept`, `neuesrezept` oder `verworfenesrezept`
+- Drafts zur Menüplanung: Tag `menüplanung`
+- Journal-Drafts sowie das Weinprotokoll sollten mit `journalculinaire` getaggt werden, um bequem per Workspace erreichbar zu sein.
+
 
 ## Workspaces (empfohlen)
 
@@ -43,6 +60,7 @@ Das System arbeitet mit folgenden Drafts. Diese Drafts müssen vorab manuell ers
 - **kochen!**: Geflaggte Rezepte für die Küchenpraxis (Flag, Inbox + Archive)
 - **Neue Rezepte**: Noch nicht getestete Rezepte (Tag `neuesrezept`, Archive)
 - **Journale**: Für alle Journale (auch aus älteren Jahren) (Tag `journalculinaire`)
+- **Verkostungsnotizen**: Für verkostete Weine (Tag `vkn`, Archive, alphabetisch sortiert)
 
 
 ## das Journal culinaire
