@@ -209,7 +209,7 @@ Die Weinverkostungs-Action hat drei Modi:
   - [Neue Rezepte](/installation/workspace-neue-rezepte.txt)
   - [Journales culinaires](/installation/workspace-journales.txt)
 
-1. Erstelle die benötigten Drafts (siehe unten)
+3. Erstelle die benötigten Drafts (siehe unten)
 
 **Option B: Manuelle Installation**
 
