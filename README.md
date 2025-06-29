@@ -31,14 +31,14 @@ Ein persönliches System für Hobbyköche zur kulinarischen Dokumentation. Eine 
 
 Das System arbeitet mit folgenden Drafts. Diese Drafts müssen vorab manuell erstellt werden. Die fett markierten Namen müssen exakt als Überschrift verwendet werden:
 
-- **Journal culinaire YYYY**: Hauptjournal für das jeweilige Jahr; mit Tag "journalculinaire"
+- **Journal culinaire YYYY**: Hauptjournal für das jeweilige Jahr; mit Tag 'journalculinaire'
 - **Kochplan**: Zentrale Kochplanung
 - **Weinprotokoll**: Chronologische Weinverkostungen
 - **Backprotokoll**: Dokumentation der Backergebnisse
-- **Rezept-Drafts**: Mit Tags "rezept", "neuesrezept" oder "verworfenesrezept"
-- **VKN-Drafts**: Verkostungsnotizen mit Tag "vkn"
-- **Gäste-Drafts**: Mit Tag "besuch"
-- Drafts zur Menüplanung: Tag "menüplanung"
+- **Rezept-Drafts**: Mit Tags `rezept`, `neuesrezept` oder `verworfenesrezept`
+- **VKN-Drafts**: Verkostungsnotizen mit Tag `vkn`
+- **Gäste-Drafts**: Mit Tag `besuch`
+- Drafts zur Menüplanung: Tag `menüplanung`
 
 **Beispiel:**
 ```
