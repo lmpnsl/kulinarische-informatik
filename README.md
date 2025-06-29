@@ -181,7 +181,7 @@ Die Weinverkostungs-Action hat drei Modi:
 - **Neues Rezept einspeisen**: Rezepte kategorisieren und taggen
 - **Hat gut geschmeckt!**: Bewertungssystem nach dem Kochen
 - **Das koche ich nie wieder!**: Schlechte Rezepte aussortieren
-- **Tags zuweisen:** Tags zu bestehenden Drafts hinzufügen. Tags nutzen den Namespace `rezept`, also z.B. `rezept/suppe`, `rezept/vegetarisch` usw.
+- **Tags zuweisen:** Tags zu bestehenden Drafts hinzufügen aus einer Auswahl bereits vergebener Tags. Die Tags nutzen den Namespace `rezept`, also z.B. `rezept/suppe`, `rezept/vegetarisch` usw.
 
 ### Kochplanung
 - **auf den Kochplan setzen**: Rezept zum Kochen vormerken
