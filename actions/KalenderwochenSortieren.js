@@ -14,4 +14,4 @@ function sortKalenderwochen(input) {
 }
 
 draft.content = sortKalenderwochen(text);
-draft.update(); // Speichert die Änderungen in der Notiz
+draft.update();
