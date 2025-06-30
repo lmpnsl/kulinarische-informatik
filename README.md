@@ -160,6 +160,8 @@ Am Ende jeder Journal-Zeile kann Besuch eingegeben werden. Jeder Gast hat einen 
 
 Die Action **Besuch war da** erlaubt es, aus bereits dokumentierten Gästen auszuwählen bzw. neue anzulegen.
 
+Die Action sollte am Ende eines fertigen Journal-Eintrags ausgelöst werden, denn es wird die komplette Zeile in den Gäste-Draft übernommen.
+
 ## Wein
 
 Ähnlich funktioniert die Weinverkostung: Jeder verkostete Wein hat einen Draft (Tag `vkn`, Archive).
@@ -246,11 +248,12 @@ Die Action **auf die Einkaufsliste** verwendet die iOS Erinnerungen-App:
 
 **Planung → Kochen → Dokumentation:**
 
-1. Kochplan erstellen/anzeigen
-2. Kochmodus aktivieren (beim Kochen)
-3. Kulinarischer Tagebucheintrag (nach dem Essen)
-4. Weinflasche entkorkt (falls Wein dazu)
-5. Besuch war da (falls Gäste da waren)
+1. Kochplan erstellen/anzeigen oder Menüplanungsdrafts anlegen (mit Ideensammlungen für Gerichte, passende Weine, Planung der nötigen Vorbereitungsschritte usw.)
+2. relevante Rezepte flaggen, um schnell darauf zugreifen zu können (Workspace "Kochen")
+3. Kochmodus aktivieren (beim Kochen)
+4. Kulinarischer Tagebucheintrag (nach dem Essen)
+5. Weinflasche entkorkt (falls Wein dazu)
+6. Besuch war da (falls Gäste da waren)
 
 ## Lizenz
 
