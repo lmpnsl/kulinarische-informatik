@@ -154,7 +154,7 @@ KW 51
 
 ## Besuchsbuchführung
 
-Am Ende jeder Journal-Zeile kann Besuch eingegeben werden. Jeder Gast hat einen eigenen Draft (Tag `besuch`), zu dem die jeweilige Journal-Zeile (mit Datum, Essen, Weinen) hinzugefügt wird. So entsteht eine Übersicht über die Bewirtungsgeschichte der Gäste: Was habe ich schon für sie gekocht? Welchen Wein haben wir gemeinsam verkostet?
+Am Ende jeder Journal-Zeile kann Besuch eingegeben werden. Jeder Gast hat einen eigenen Draft (Tag `besuch`), zu dem die jeweilige Journal-Zeile (mit Datum, Essen, Weinen) hinzugefügt wird. So entsteht eine Übersicht über die Bewirtungsgeschichte der Gäste: Was habe ich schon für sie gekocht? Welche Weine haben wir gemeinsam verkostet?
 
 ## Wein
 
