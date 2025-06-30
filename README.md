@@ -156,9 +156,11 @@ KW 51
 
 Am Ende jeder Journal-Zeile kann Besuch eingegeben werden. Jeder Gast hat einen eigenen Draft (Tag `besuch`, Archive), zu dem die jeweilige Journal-Zeile (mit Datum, Essen, Weinen) hinzugefügt wird. So entsteht eine Übersicht über die Bewirtungsgeschichte der Gäste: Was habe ich bereits für sie gekocht? Welche Weine haben wir gemeinsam verkostet?
 
+Die Action **Besuch war da** erlaubt es, aus bereits dokumentierten Gästen auszuwählen bzw. neue anzulegen.
+
 ## Wein
 
-Ähnlich funktioniert die Weinverkostung: Jeder verkostete Wein hat einen Draft (Tag `vkn`).
+Ähnlich funktioniert die Weinverkostung: Jeder verkostete Wein hat einen Draft (Tag `vkn`, Archive).
 
 ### Verkostungsnotiz
 
