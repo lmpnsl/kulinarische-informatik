@@ -60,6 +60,11 @@ Das System arbeitet mit folgenden Drafts. Diese Drafts müssen vorab manuell ers
 - **VKN-Drafts**: Verkostungsnotizen mit Tag `vkn`
 - **Gäste-Drafts**: Mit Tag `besuch`
 
+**Beispiel:**
+```markdown
+1  # Journal culinaire 2025
+```
+
 Außerdem benötigt man zwei spezielle Drafts für die Wein-Action:
 - **+++ Neuen Wein hinzufügen +++**: Trigger-Draft für neue Verkostungsnotizen mit dem genauen Inhalt:
 ```
@@ -70,11 +75,6 @@ Ist der Wein nicht dabei? Dann füge eine neue VKN hinzu! 🍾
 ```
 # +++ Schnell-VKN übernehmen +++
 VKN schon angelegt? Verkostungsnotitz übernehmen 🍷
-```
-
-**Beispiel:**
-```markdown
-1  # Journal culinaire 2025
 ```
 
 Zusätzlich werden manuell getaggte Drafts in verschiedene Abläufe einbezogen.
