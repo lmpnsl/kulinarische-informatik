@@ -54,7 +54,7 @@ Das System arbeitet mit folgenden Drafts. Diese Drafts müssen vorab manuell ers
 
 - **Journal culinaire YYYY**: Hauptjournal für das jeweilige Jahr; mit Tag 'journalculinaire'
 - **Kochplan**: Zentrale Kochplanung
-- **Weinprotokoll**: Chronologische Weinverkostungen
+- **Weinprotokoll**: Chronologische Weinverkostungen; Tag `journalculinaire`
 - **Backprotokoll**: Dokumentation der Backergebnisse
 - **Rezept-Drafts**: Mit Tags `rezept`, `neuesrezept` oder `verworfenesrezept`
 - **VKN-Drafts**: Verkostungsnotizen mit Tag `vkn`
@@ -219,7 +219,7 @@ Die Weinverkostungs-Action hat drei Modi:
 - **zur Menüplanung hinzufügen**: Rezepte und Weine zu aktuellen Menüplanungsdrafts hinzufügen
 
 ### Wein-Verwaltung
-- **Weinflasche entkorkt**: Wein mit detaillierte Verkostungsnotizen (VKN) ins Journal aufnehmen
+- **Weinflasche entkorkt**: Wein mit detaillierte Verkostungsnotizen (VKN) ins Journal aufnehmen, automatisches Weinprotokoll
 - **Quick-VKN** - Schnelle Notizen für spontane Verkostungen. 
 
 ### Besuchsbuchführung
