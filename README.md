@@ -152,6 +152,8 @@ KW 51
 ...
 ```
 
+Für die Syntax im Journal culinaire gibt es eine spezielle [Drafts-Syntax](/syntax/), die installiert werden kann.
+
 ## Besuchsbuchführung
 
 Am Ende jeder Journal-Zeile kann Besuch eingegeben werden. Jeder Gast hat einen eigenen Draft (Tag `besuch`, Archive), zu dem die jeweilige Journal-Zeile (mit Datum, Essen, Weinen) hinzugefügt wird. So entsteht eine Übersicht über die Bewirtungsgeschichte der Gäste: Was habe ich bereits für sie gekocht? Welche Weine haben wir gemeinsam verkostet?
@@ -218,6 +220,9 @@ Die Weinverkostungs-Action hat drei Modi:
 - **auf die Einkaufsliste**: Zutaten aus Rezept auswählen, ggf. Mengen umrechnen und zur iOS Erinnerungen-App hinzufügen
 - **zur Menüplanung hinzufügen**: Rezepte und Weine zu aktuellen Menüplanungsdrafts hinzufügen
 
+**Tipp:** Setze den Kochplan in den Editor-Einstellungen auf Syntax "TaskPaper+" - dann können Einträge durch Antippen abgehakt werden.
+
+
 ### Wein-Verwaltung
 - **Weinflasche entkorkt**: Wein mit detaillierte Verkostungsnotizen (VKN) ins Journal aufnehmen, automatisches Weinprotokoll
 - **Quick-VKN** - Schnelle Notizen für spontane Verkostungen. 
@@ -246,10 +251,6 @@ Die Action **auf die Einkaufsliste** verwendet die iOS Erinnerungen-App:
 3. Kulinarischer Tagebucheintrag (nach dem Essen)
 4. Weinflasche entkorkt (falls Wein dazu)
 5. Besuch war da (falls Gäste da waren)
-
-### Syntax
-- Setze den Kochplan in den Editor-Einstellungen auf Syntax "TaskPaper+" - dann können Einträge durch Antippen abgehakt werden.
-- Für die Syntax im Journal culinaire gibt es eine spezielle [Drafts-Syntax](/syntax/), die installiert werden kann.
 
 ## Lizenz
 
