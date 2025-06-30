@@ -22,10 +22,10 @@ Ein persönliches System für Hobbyköche zur kulinarischen Dokumentation. Eine 
 **Option A: Automatische Installation (empfohlen)**
 
 1. **Action Group installieren:**
-  Die [Install-URL](/installation/actiongroup-install-url.txt) aufrufen.
+  Die [Install-URL](/installation/actiongroup-install-url.txt) benutzen.
 
 2. **Workspaces installieren:**
-  Klicke auf die Install-Links für die empfohlenen Workspaces:
+  Benutze auf die Install-URLs für die empfohlenen Workspaces:
   
     - [Rezepte](/installation/workspace-rezepte.txt)
     - [Verkostungsnotizen](/installation/workspace-vkn.txt)
