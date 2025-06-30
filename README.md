@@ -216,14 +216,16 @@ Die Weinverkostungs-Action hat drei Modi:
 - **Kochplan zeigen**: Aktuellen Plan anzeigen
 - **Kochmodus**: Fokus-Modus fürs Kochen (kein Bildschirm-Timeout, keine versehentlichen Bearbeitungen)
 - **auf die Einkaufsliste**: Zutaten aus Rezept auswählen, ggf. Mengen umrechnen und zur iOS Erinnerungen-App hinzufügen
+- **zur Menüplanung hinzufügen**: Rezepte und Weine zu aktuellen Menüplanungsdrafts hinzufügen
 
 ### Wein-Verwaltung
 - **Weinflasche entkorkt**: Wein mit detaillierte Verkostungsnotizen (VKN) ins Journal aufnehmen
 - **Quick-VKN** - Schnelle Notizen für spontane Verkostungen. 
 
-### Weitere
-- **zur Menüplanung hinzufügen**: Rezepte und Weine zu aktuellen Menüplanungsdrafts hinzufügen
+### Besuchsbuchführung
 - **Besuch war da**: Gäste dokumentieren, automatische Gästeprofile
+
+### Bäckerei
 - **Brot gebacken**: Backergebnisse mit automatischem Backprotokoll
 
 
