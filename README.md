@@ -77,7 +77,7 @@ Ist der Wein nicht dabei? Dann füge eine neue VKN hinzu! 🍾
 VKN schon angelegt? Verkostungsnotitz übernehmen 🍷
 ```
 
-Zusätzlich werden manuell getaggte Drafts in verschiedene Abläufe einbezogen.
+Zusätzlich werden manuell getaggte Drafts in verschiedene Abläufe einbezogen: 
 - Rezept-Drafts mit Tags `rezept`, `neuesrezept` oder `verworfenesrezept`
 - Drafts zur Menüplanung: Tag `menüplanung`
 - Journal-Drafts sowie das Weinprotokoll sollten mit `journalculinaire` getaggt werden, um bequem per Workspace erreichbar zu sein.
@@ -154,7 +154,7 @@ KW 51
 
 ## Besuchsbuchführung
 
-Am Ende jeder Journal-Zeile kann Besuch eingegeben werden. Jeder Gast hat einen eigenen Draft (Tag `besuch`), zu dem die jeweilige Journal-Zeile (mit Datum, Essen, Weinen) hinzugefügt wird.
+Am Ende jeder Journal-Zeile kann Besuch eingegeben werden. Jeder Gast hat einen eigenen Draft (Tag `besuch`), zu dem die jeweilige Journal-Zeile (mit Datum, Essen, Weinen) hinzugefügt wird. So entsteht eine Übersicht über die Bewirtungsgeschichte der Gäste: Was habe ich schon für sie gekocht? Welchen Wein haben wir gemeinsam verkostet?
 
 ## Wein
 
