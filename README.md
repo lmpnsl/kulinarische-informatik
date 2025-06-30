@@ -228,12 +228,6 @@ Die Weinverkostungs-Action hat drei Modi:
 ### Bäckerei
 - **Brot gebacken**: Backergebnisse mit automatischem Backprotokoll
 
-
-
-## Konfiguration
-
-Setze den Kochplan in den Editor-Einstellungen auf Syntax "TaskPaper+" - dann können Einträge durch Antippen abgehakt werden.
-
 ### iOS Erinnerungen-Integration
 Die Action **auf die Einkaufsliste** verwendet die iOS Erinnerungen-App:
 
@@ -254,7 +248,8 @@ Die Action **auf die Einkaufsliste** verwendet die iOS Erinnerungen-App:
 5. Besuch war da (falls Gäste da waren)
 
 ### Syntax
-Für die Syntax im Journal culinaire gibt es eine spezielle [Drafts-Syntax](/syntax/), die installiert werden kann.
+- Setze den Kochplan in den Editor-Einstellungen auf Syntax "TaskPaper+" - dann können Einträge durch Antippen abgehakt werden.
+- Für die Syntax im Journal culinaire gibt es eine spezielle [Drafts-Syntax](/syntax/), die installiert werden kann.
 
 ## Lizenz
 
