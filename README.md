@@ -258,7 +258,3 @@ Die Action **auf die Einkaufsliste** verwendet die iOS Erinnerungen-App:
 ## Lizenz
 
 MIT License - siehe [LICENSE](LICENCE.txt) für Details.
-
----
-
-*Die Dokumentation wurde von Claude geschrieben.*
