@@ -96,7 +96,7 @@ Zusätzlich werden manuell getaggte Drafts in verschiedene Abläufe einbezogen:
 
 ## das Journal culinaire
 
-Das kulinarische Journal ist das Herzstück des Systems. Es dokumentiert täglich, was gekocht und gegessen wurde, und verbindet alle anderen Bereiche (Rezepte, Wein, Gäste) miteinander.
+Das kulinarische Tagebuch ist das Herzstück des Systems. Es dokumentiert täglich, was gekocht und gegessen wurde, und verbindet alle anderen Bereiche (Rezepte, Wein, Gäste) miteinander.
 
 
 ### Wochenformat
