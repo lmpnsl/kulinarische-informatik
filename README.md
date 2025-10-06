@@ -101,10 +101,11 @@ Das kulinarische Tagebuch ist das Herzstück des Systems. Es dokumentiert tägli
 
 ### Wochenformat
 
-Wöchentlich (am besten Montags) muss die Action **Neue Woche ins Journal** ausgelöst werden (am besten Erinnerung einstellen). Sie legt oben im Draft eine Wochenstruktur an:
+Wöchentlich (am besten Montags) muss die Action **Neue Woche ins Journal** ausgelöst werden (am besten Erinnerung einstellen). Sie legt oben im Draft eine Wochenstruktur an. 
+
+Beispiel-Output:
 
 ```
-Beispiel-Output:
 KW 52
 
 Mo 27.12. - 
