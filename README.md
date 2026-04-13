@@ -228,7 +228,8 @@ Die Weinverkostungs-Action hat drei Modi:
 
 ### Wein-Verwaltung
 - **Weinflasche entkorkt**: Wein mit detaillierte Verkostungsnotizen (VKN) ins Journal aufnehmen, automatisches Weinprotokoll
-- **Quick-VKN** - Schnelle Notizen für spontane Verkostungen. 
+- **Quick-VKN** - Schnelle Notizen für spontane Verkostungen.
+- **Wein-Statistik**: Auswertung aller Verkostungsnotizen – zeigt Gesamtanzahl, Durchschnittsbewertung, Punkteverteilung, Top-10-Weine und eine Jahresübersicht.
 
 ### Besuchsbuchführung
 - **Besuch war da**: Gäste dokumentieren, automatische Gästeprofile
